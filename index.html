@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi app firebase con jquery</title>
+  </head>
+  <body>
+    <h1>Inicia sesión</h1>
+    <button id='login'>Inicia sesión con Google</button>
+
+    <div id="root">
+
+    </div>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyCvyHZeQGs1t4xdzneUu-ZBRypCG-NKaJY",
+          authDomain: "fir-prueba-fa710.firebaseapp.com",
+          databaseURL: "https://fir-prueba-fa710.firebaseio.com",
+          projectId: "fir-prueba-fa710",
+          storageBucket: "fir-prueba-fa710.appspot.com",
+          messagingSenderId: "681310386255"
+        };
+        firebase.initializeApp(config);
+      </script>
+<script src='app.js'>
+
+</script>
+  </body>
+</html>
